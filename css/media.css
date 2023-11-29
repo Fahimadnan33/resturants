@@ -1,0 +1,463 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /*header start*/
+    header {
+	    padding: 10px 0;
+	}
+	.logo h1 {
+	    font-size: 21px;
+	}
+	.menu ul li a {
+	    float: right;
+	    padding: 6px 0 0 !important;
+	}
+    /* bananer start  */
+    .banner {
+        background-position: top;
+    }
+    .b_text {
+        padding: 80px 0;
+        margin: 260px 0;
+    }
+    .b_text h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .b_text p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .button {
+        justify-content: center;
+        display: flex;
+    }
+    .c_btn {
+        margin: 0px 5px;
+        text-transform: capitalize;
+        
+    }
+      /* abuot start  */
+      .abuot {
+        background-position: left;
+    }
+      .abuot{
+        padding: 50px 0;
+    }
+    .abuot_img {
+        padding: 0px;
+    }
+    .abuot_text {
+        margin-top: 20px;
+        padding: 0px;
+        color: #fff;
+    }
+    .abuot_text h2 {
+        font-weight: 400;
+        font-size: 26px;
+    }
+    .abuot_text p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+      /* .choose start  */
+    .choose {
+        padding: 50px 0;
+    }
+    .c_titale_h2 {
+        text-align: center;
+        font-size: 30px;
+     }
+
+
+    .c_curd {
+        margin: 30px 20px;
+    }
+      /* menu itam start  */
+                    
+     .menu_itame {
+     padding: 50px 0;
+     background-color: #000;
+     }
+     .food_img {
+        padding: 35px 0;
+     }
+     .food_cont h4 span {
+        visibility: hidden;
+    }
+    .food_cont h4 {
+        font-size: 21px;
+    }
+    .food_cont p {
+        margin-top: -35px;
+        font-size: 20px;
+    }
+    /* spesalist satrt  */
+    .v_menu button {
+        margin: 0 20px;
+        margin-top: 20px;
+    }
+    .v_n_m h3 {
+        font-size: 26px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+    /* .event start  */
+    .event {
+        padding: 50px 0;
+    }
+
+    /*team start*/
+	.team {
+	    padding-bottom: 60px;
+	}
+	.t_title {
+	    margin-bottom: 20px;
+	}
+	.t_single {
+	    margin-top: 20px;
+	}
+	.tm_details {
+	    padding: 5px 0 5px 10px;
+	}
+	.tm_socials {
+	    margin-top: -270px;
+	}
+	.tm_socials ul li {
+	    width: 35px;
+	    height: 36px;
+	    padding: 3px 5px 0px 5px;
+	}
+
+    /* footer top start  */
+     .footer_top {
+        padding: 55px 0 20px;
+      text-align: center;
+     }
+       .ft_details {
+      margin-bottom: 35px;
+     padding-right: 0;
+      }
+       .ft_link {
+       margin-bottom: 35px;
+      }
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /*header start*/
+     header {
+	    padding: 10px 0;
+	}
+	.logo h1 {
+	    font-size: 21px;
+	}
+	.menu ul li a {
+	    float: right;
+	    padding: 6px 0 0 !important;
+	}
+     /* bananer start  */
+     .banner {
+        background-position: inherit;
+    }
+     .b_text {
+      margin: 330px 0;
+    }
+   
+     .b_text h2 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .b_text p {
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .button {
+        justify-content: center;
+        display: flex;
+    }
+      /* abuot start  */
+      .abuot{
+        padding: 50px 0;
+    }
+    .abuot_img {
+        padding: 0 20px;
+    }
+    .abuot_text {
+        margin-top: 20px;
+        padding: 0px 20px;
+        color: #fff;
+    }
+    .abuot_text p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    /* .choose start  */
+    .choose {
+        padding: 50px 0;
+    }
+      /* menu itam start  */
+      .menu_itame {
+        padding: 50px 0;
+        background-color: #000;
+        }
+
+        .food_img {
+            padding: 35px 0;
+         }
+      .food_cont h4 span {
+        /* visibility: hidden; */
+    }
+    /* spasalist start  */
+      .v_menu {
+        margin-top: 20px;
+     }
+     .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        margin: 0 30px;
+     }
+    .v_m_img {
+        padding: 0px 85px;
+    }
+    /* .events start  */
+    .events_img {
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+    .e_tex {
+        padding: 0 25px;
+        margin-top: 30px;
+    }
+     /* .event start  */
+     .event {
+        padding: 50px 0;
+    }
+
+
+    /*team start*/
+	.team {
+	    padding-bottom: 60px;
+	}
+	.t_title {
+	    margin-bottom: 20px;
+	}
+	.t_single {
+	    margin-top: 20px;
+	}
+	.tm_socials {
+	    margin-top: -270px;
+	}
+	.tm_socials ul li {
+	    width: 35px;
+	    height: 36px;
+	    padding: 3px 5px 0px 5px;
+	}
+
+    /* footer top  */
+      .footer_top{
+        text-align: center;
+    }
+    .ft_details {
+        margin-bottom: 35px;
+        padding: 0 70px;
+    }
+    
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    header {
+	    padding: 15px 0;
+	}
+	.menu ul li a {
+	    float: right;
+	    padding: 10px 0 0 !important;
+	}
+    /* bananer start  */
+    .b_text h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    /* banner start  */
+    .b_text {
+        margin: 0;
+        padding:  320px 0;
+    }
+    /* abuot start  */
+    .abuot{
+        padding: 70px 0;
+    }
+    .abuot_img {
+        padding: 0 20px;
+    }
+    .abuot_text {
+        color: #fff;
+        padding: 0 76px;
+        margin-top: 20px;
+    }
+    /* .choose start  */
+    .choose {
+        padding: 70px 0;
+    }
+    /* menu itam start  */
+    .menu_itame {
+        padding: 70px 0;
+    }
+    .food_cont h4 span {
+        visibility: hidden;
+    }
+
+    /* spasalist start  */
+    .v_menu {
+        margin-top: 20px;
+    }
+    .v_menu button {
+        margin-top: 10px;
+       
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        margin: 0 162px;
+    }
+    .v_m_img {
+        padding: 0px 150px;
+    }
+
+    /* events strt  */
+    .event {
+        padding: 70px 0;
+       
+    }
+    .events_img {
+        padding: 0 20px;
+        
+    }
+    .e_tex {
+        color: #fff;
+        padding: 0 76px;
+        margin-top: 20px;
+    }
+
+    /*team start*/
+	.team {
+	    padding-bottom: 80px;
+	}
+	.t_title {
+	    margin-bottom: 30px;
+	}
+	.t_single {
+	    margin-top: 30px;
+	}
+	.tm_details {
+	    padding: 8px 0 8px 10px;
+	}
+	.tm_socials {
+	    margin-top: -290px;
+	}
+	.tm_socials ul li {
+	    width: 35px;
+	    height: 36px;
+	    padding: 3px 5px 0px 5px;
+	}
+
+    /* footer top  */
+       .footer_top{
+        text-align: center;
+    }
+    .ft_details {
+        margin-bottom: 35px;
+        padding: 0 80px;
+        color: #fff;
+        line-height: 30px;
+    }
+    
+
+  
+
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* banner start  */
+     /* abuot sratr  */
+     .abuot_text p {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    /* chosse start  */
+    .c_curd {
+        padding: 35px 20px;
+        background-color: #000;
+        border-radius: 5px;
+        text-align: center;
+        color: #fff;
+        transition: linear .3s;
+        cursor: pointer;
+    }
+      /* vertical menu start */
+      .v_n_m h3 {
+        font-size: 23px;
+    }
+
+      .v_n_m p {
+        margin: 10px 0;
+    }
+     /* events start  */
+    h5 {
+        margin: 5px 0;
+    }
+    .e_tex ul li {
+        margin: 5px 0;
+    }
+    .e_last_p {
+        margin-top: 5px !important;
+    }
+
+
+    /*team start*/
+	.tm_details {
+	    padding: 8px 0 8px 10px;
+	}
+	.tm_socials {
+	    margin-top: -270px;
+	}
+	.tm_socials ul li {
+	    width: 35px;
+	    height: 36px;
+	    padding: 3px 5px 0px 5px;
+	}
+
+    
+ }
+
+/*extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* abuot sratr  */
+    .abuot_text p {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    /* vertical menu start */
+    .v_n_m p {
+        margin: 20px 0;
+    }
+    /* events strat  */
+    h5 {
+        margin: 5px 0;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    .e_last_p{
+      margin-top: 10px !important;
+
+    }
+ }
+
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .ft_details {
+        padding-right: 130px;
+    }
+ }
